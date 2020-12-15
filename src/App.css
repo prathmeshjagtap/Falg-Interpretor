@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #60a5fa;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--primary-color);
+  text-align: center;
+  color: #fff;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  min-height: 60vh;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.input {
+  width: 50%;
+  padding: 5px;
+  margin: 2rem;
+  border: 2px solid var(--primary-color);
+}
+
+.emojiView {
+  padding: 1rem 0;
+}
+.emoji {
+  display: inline-block;
+  padding: 5px;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.content > h2 {
+  font-weight: 700;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
