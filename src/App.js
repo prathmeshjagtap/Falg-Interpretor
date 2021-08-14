@@ -10,6 +10,9 @@ const emojiDictionary = {
   "🏳️‍🌈": "Rainbow Flag",
   "🏳️‍": "Transgender Flag",
   "🏴‍☠️": "Pirate Flag",
+  "🎸": "Guitar",
+  "❤️": "Red Heart",
+  "⌛": "Hourglass",
 };
 
 function App() {
